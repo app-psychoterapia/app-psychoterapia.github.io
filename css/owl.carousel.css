@@ -54,6 +54,8 @@
 .owl-carousel {
   display: none;
   width: 100%;
+  max-width: 15000px;
+  min-height:350px;
   -webkit-tap-highlight-color: transparent;
   /* position relative and z-index fix webkit rendering fonts issue */
   position: relative;

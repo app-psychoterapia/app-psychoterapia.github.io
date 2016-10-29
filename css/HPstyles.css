@@ -4,16 +4,17 @@ html,
 body {
     height: 100%;
     width: 100%;
+	/* min-width: 770px; */
     letter-spacing: 0.5px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Cabin', "Helvetica Neue", "Helvetica", sans-serif;
+    font-family: "Century Gothic",'Cabin', "Helvetica Neue", "Helvetica", sans-serif;
 }
 
 body {
 
-    font-family: 'Arbutus Slab', "Helvetica Neue", "Helvetica", sans-serif !important;
+    font-family: "Century Gothic",'Cabin'/* 'Arbutus Slab' */, "Helvetica Neue", "Helvetica", sans-serif !important;
     line-height: 1.6;
 }
 
@@ -52,16 +53,24 @@ body {
 }
 
 .logo {
-    max-width: 19em;
-    width: 100%;
-    padding: 2em;
+    max-width: 35%;
+	min-width: 200px;
+    /* width: 200%; */
+    padding: 0em;
 	position: absolute;
-	left: 0px;
-	top: 0px;
+	right: 0px;
+	top: 2em;
+}
+
+.item {
+	max-width: 44em;
 }
 
 .buttonbox {
-    margin: 2em 0 4em;
+	position: absolute;
+	left: 0px;
+	bottom: 0em;
+    margin: 1em;
 }
 
 @media only screen

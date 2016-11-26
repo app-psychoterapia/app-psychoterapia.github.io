@@ -463,6 +463,11 @@ pre {
   padding-left: 15px;
   padding-right: 15px;
 }
+@media (max-width: 767px) {
+  .intro,.main,.container ,.body{
+    width: 750px;
+  }
+}
 @media (min-width: 768px) {
   .container {
     max-width: 750px;
@@ -832,11 +837,6 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 @-ms-viewport {
   width: device-width;
-}
-@media screen and (max-width: 400px) {
-  @-ms-viewport {
-    width: 320px;
-  }
 }
 
 .hidden-xs {

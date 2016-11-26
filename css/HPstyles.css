@@ -4,7 +4,7 @@ html,
 body {
     height: 100%;
     width: 100%;
-	/* min-width: 770px; */
+	min-width: 770px;
     letter-spacing: 0.5px;
 }
 
@@ -40,7 +40,7 @@ body {
 .header {
 background: url(../img/cover-orig.jpg) no-repeat top center fixed;
     position: relative;
-    min-height: 80%;
+    min-height: 75%;
     text-align: center;
     color: #fff;
     background-position: center;

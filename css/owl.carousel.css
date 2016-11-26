@@ -54,7 +54,7 @@
 .owl-carousel {
   display: none;
   width: 100%;
-  max-width: 15000px;
+  max-width: 1200px;
   min-height:350px;
   -webkit-tap-highlight-color: transparent;
   /* position relative and z-index fix webkit rendering fonts issue */
@@ -74,6 +74,7 @@
   height: 0;
 }
 .owl-carousel .owl-stage-outer {
+	max-width:1200px;
   position: relative;
   overflow: hidden;
   /* fix for flashing background */
@@ -101,6 +102,7 @@
   opacity: 0;
 }
 .owl-carousel .owl-refresh .owl-item {
+	max-width:700px;
   display: none;
 }
 .owl-carousel .owl-item {

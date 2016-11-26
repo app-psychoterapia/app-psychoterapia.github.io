@@ -38,20 +38,23 @@ body {
 }
 
 .header {
-    display: table;
-    height: 70%;
-    width: 100%;
-    min-height: 70%;
+background: url(../img/cover-orig.jpg) no-repeat top center fixed;
     position: relative;
-    background: url(../img/cover-orig.jpg) no-repeat center center fixed;
+    min-height: 80%;
+    text-align: center;
+    color: #fff;
+    background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
-    z-index: 99999;
-    background-color: black;
+    -o-background-size: cover;
 }
-
+header .header-content {
+    position: relative;
+    width: 100%;
+    padding: 100px 15px;
+    text-align: center;
+}
 .logo {
     max-width: 35%;
 	min-width: 200px;
@@ -74,38 +77,6 @@ body {
     margin: 1em;
 }
 
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 1024px)
-and (orientation : portrait)
-{
-    .header {
-        display: table;
-        height: 70%;
-        width: 100%;
-        position: relative;
-        background: url(../img/cover-orig.jpg) no-repeat;
-        background-size: 100% 100%;
-        z-index: 99999;
-        background-color: black;
-    }
-}
-
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 1024px)
-and (orientation : landscape) {
-    .header {
-        display: table;
-        height: 70%;
-        width: 100%;
-        position: relative;
-        background: url(../img/cover-orig.jpg) no-repeat;
-        background-size: 100% 100%;
-        z-index: 99999;
-        background-color: black;
-    }
-}
 
 .header .btn {
     margin: 10px;
@@ -232,7 +203,7 @@ i.callout-icon:hover {
 }
 
 #footer {
-    font-size: 14px;
+    font-size: medium;
     padding: 50px 0px 25px 0px;
     background: rgb(255, 255, 255);
 }
@@ -288,5 +259,5 @@ footer a:hover {
 }
 
 .owl-carousel blockquote p {
-    font-size: 20pt;
+    font-size: medium;
 }
